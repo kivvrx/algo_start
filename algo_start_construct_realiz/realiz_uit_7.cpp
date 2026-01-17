@@ -13,10 +13,10 @@ int main() {
         for (int i = 0; i < n; ++i) {
             std::cin >> a[i];
         }
-        int height = 1;            // начальная высота
-        int zero = 0; // подряд нулей
-        bool prev = false; // вчера был полив
-        int result = 0;            // итог для набора
+        int height = 1;            // РЅР°С‡Р°Р»СЊРЅР°СЏ РІС‹СЃРѕС‚Р°
+        int zero = 0; // РїРѕРґСЂСЏРґ РЅСѓР»РµР№
+        bool prev = false; // РІС‡РµСЂР° Р±С‹Р» РїРѕР»РёРІ
+        int result = 0;            // РёС‚РѕРі РґР»СЏ РЅР°Р±РѕСЂР°
 
         bool ok = false;
         for (int i = 0; i < n; ++i) {
@@ -25,9 +25,9 @@ int main() {
                 prev = false;
                 if (zero == 2) {
                     ok = true;
-                    break; // завял
+                    break; // Р·Р°РІСЏР»
                 }
-                // рост не меняется
+                // СЂРѕСЃС‚ РЅРµ РјРµРЅСЏРµС‚СЃСЏ
             }
             else { // a[i] == 1
                 zero = 0;

@@ -18,8 +18,8 @@ int main() {
             bool bot_edges = (a[i + 1][j] == 1 && a[i + 1][j + 3] == 1);
             bool bot_middle = (a[i + 1][j + 1] == 1 && a[i + 1][j + 2] == 1);
 
-            if (top_edges && bot_middle)  ++count; // вариант 1
-            if (top_middle && bot_edges)  ++count; // вариант 2
+            if (top_edges && bot_middle)  ++count; // РІР°СЂРёР°РЅС‚ 1
+            if (top_middle && bot_edges)  ++count; // РІР°СЂРёР°РЅС‚ 2
         }
     }
 

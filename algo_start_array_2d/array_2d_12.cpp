@@ -17,7 +17,7 @@ int main() {
                 break;
             }
         }
-        if (ok) good.push_back(j + 1); // нумерация с 1
+        if (ok) good.push_back(j + 1); // РЅСѓРјРµСЂР°С†РёСЏ СЃ 1
     }
     if (good.empty()) {
         std::cout << -1 << "\n";

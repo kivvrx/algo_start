@@ -22,7 +22,7 @@ int main() {
         std::cout << "Sad\n";
     }
     else {
-        std::sort(result.rbegin(), result.rend()); // óáûâàíèå
+        std::sort(result.rbegin(), result.rend()); // ÑƒĞ±Ñ‹Ğ²Ğ°Ğ½Ğ¸Ğµ
         for (char ch : result) {
             std::cout << ch << " ";
         }

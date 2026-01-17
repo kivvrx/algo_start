@@ -21,12 +21,12 @@ int main() {
     for (int i = 0; i < 256; i++) {
         if (cnt[i] > 0) chars.push_back((char)i);
     }
-    // ìàêñèìàëüíàÿ âûñîòà
+    // Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ Ð²Ñ‹ÑÐ¾Ñ‚Ð°
     int max_height = 0;
     for (char c : chars) {
         max_height = std::max(max_height, cnt[(unsigned char)c]);
     }
-    // ïå÷àòàåì ñâåðõó âíèç
+    // Ð¿ÐµÑ‡Ð°Ñ‚Ð°ÐµÐ¼ ÑÐ²ÐµÑ€Ñ…Ñƒ Ð²Ð½Ð¸Ð·
     for (int row = max_height; row >= 1; row--) {
         for (char c : chars) {
             if (cnt[(unsigned char)c] >= row) std::cout << '#';

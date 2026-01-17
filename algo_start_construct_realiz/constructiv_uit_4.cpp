@@ -17,7 +17,7 @@ int main() {
         for (int i = 0; i < n; ++i) {
             std::cin >> pairs[i].second; // b_i
         }
-        std::sort(pairs.begin(), pairs.end()); // сортируем по a_i
+        std::sort(pairs.begin(), pairs.end()); // СЃРѕСЂС‚РёСЂСѓРµРј РїРѕ a_i
         std::string a_line, b_line;
         for (int i = 0; i < n; ++i) {
             a_line += std::to_string(pairs[i].first);

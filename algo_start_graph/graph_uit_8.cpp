@@ -8,7 +8,7 @@ int main() {
     int n, m;
     cin >> n >> m;
 
-    // для каждой вершины список соседей
+    // РґР»СЏ РєР°Р¶РґРѕР№ РІРµСЂС€РёРЅС‹ СЃРїРёСЃРѕРє СЃРѕСЃРµРґРµР№
     vector<unordered_set<int>> adj(n + 1);
     vector<int> inp;
     int m_2 = 2 * m;

@@ -13,7 +13,7 @@ int main() {
         std::vector<int> arr;
         arr.reserve(n);
         for (int i = 0; i < n; ++i) {
-            arr.push_back(2 * i + 1); // íå÷¸òíûå ÷èñëà
+            arr.push_back(2 * i + 1); // Ğ½ĞµÑ‡Ñ‘Ñ‚Ğ½Ñ‹Ğµ Ñ‡Ğ¸ÑĞ»Ğ°
         }
         answers.push_back(std::move(arr));
     }

@@ -14,7 +14,7 @@
 int main() {
     int N, M;
     std::cin >> N;
-    // ОЧЕНЬ ВАЖНО: очищаем буфер после чтения N
+    // РћР§Р•РќР¬ Р’РђР–РќРћ: РѕС‡РёС‰Р°РµРј Р±СѓС„РµСЂ РїРѕСЃР»Рµ С‡С‚РµРЅРёСЏ N
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     std::unordered_map<std::string, std::string> city_country;
     std::string line;

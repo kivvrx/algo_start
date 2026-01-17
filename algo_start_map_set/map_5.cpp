@@ -16,8 +16,8 @@ int main() {
     std::vector<std::pair<std::string, int>> words(freq.begin(), freq.end());
     std::sort(words.begin(), words.end(), [](const auto& a, const auto& b) {
         if (a.second != b.second)
-            return a.second > b.second; // по убыванию частоты
-        return a.first < b.first;       // по алфавиту
+            return a.second > b.second; // РїРѕ СѓР±С‹РІР°РЅРёСЋ С‡Р°СЃС‚РѕС‚С‹
+        return a.first < b.first;       // РїРѕ Р°Р»С„Р°РІРёС‚Сѓ
         });
     for (const auto& [word, count] : words) {
         std::cout << word << ": " << count << "\n";

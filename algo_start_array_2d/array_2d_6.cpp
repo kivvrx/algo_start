@@ -17,7 +17,7 @@ int main() {
             int row = i;
             int column = j;
             int anss = 0;
-            // идём по всем строкам подматрицы
+            // РёРґС‘Рј РїРѕ РІСЃРµРј СЃС‚СЂРѕРєР°Рј РїРѕРґРјР°С‚СЂРёС†С‹
             while (row <= i + P - 1) {
                 anss += a[row][column];
                 ++column;

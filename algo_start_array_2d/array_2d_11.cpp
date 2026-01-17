@@ -11,8 +11,8 @@ int main() {
     int maxVal = -1;
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
-            if (i == j) continue;              // главная диагональ
-            if (i + j == N - 1) continue;      // побочная диагональ
+            if (i == j) continue;              // РіР»Р°РІРЅР°СЏ РґРёР°РіРѕРЅР°Р»СЊ
+            if (i + j == N - 1) continue;      // РїРѕР±РѕС‡РЅР°СЏ РґРёР°РіРѕРЅР°Р»СЊ
             if (a[i][j] > maxVal) maxVal = a[i][j];
         }
     }

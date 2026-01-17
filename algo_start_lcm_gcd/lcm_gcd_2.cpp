@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdint>
 const uint64_t MOD = 1000000007;
-// работает на gcc 64
+// СЂР°Р±РѕС‚Р°РµС‚ РЅР° gcc 64
 uint64_t gcd128(uint64_t a, uint64_t b) {
     while (b != 0) {
         uint64_t t = a % b;

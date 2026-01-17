@@ -16,16 +16,16 @@ int main() {
     for (int i = 0; i < q; ++i) {
         int row;
         std::cin >> row;
-        row_type[row - 1] = true; // отмечаем строка чётная
+        row_type[row - 1] = true; // РѕС‚РјРµС‡Р°РµРј СЃС‚СЂРѕРєР° С‡С‘С‚РЅР°СЏ
     }
     int even_count = 0;
     int odd_count = 0;
     for (int i = 0; i < n; ++i) {
         for (int val : matrix[i]) {
-            if (row_type[i]) { // если строка в r
+            if (row_type[i]) { // РµСЃР»Рё СЃС‚СЂРѕРєР° РІ r
                 if (val % 2 == 0) ++even_count;
             }
-            else {           // если строки нет в r
+            else {           // РµСЃР»Рё СЃС‚СЂРѕРєРё РЅРµС‚ РІ r
                 if (val % 2 != 0) ++odd_count;
             }
         }

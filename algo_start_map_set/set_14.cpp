@@ -17,7 +17,7 @@ int main() {
     for (int i = 0; i < M; ++i) {
         int a, b;
         std::cin >> a >> b;
-        --a; --b; // èíäåêñàöèÿ ñ 0
+        --a; --b; // Ð¸Ð½Ð´ÐµÐºÑÐ°Ñ†Ð¸Ñ Ñ 0
         if (a > b) std::swap(a, b); 
         compatible.insert({ a, b });
     }

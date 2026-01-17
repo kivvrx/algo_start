@@ -1,4 +1,4 @@
-﻿//2 2 9 1 2 9 9 9 - 3 - 3 2 2
+//2 2 9 1 2 9 9 9 - 3 - 3 2 2
 #include <algorithm>
 #include <iostream>
 #include <vector>

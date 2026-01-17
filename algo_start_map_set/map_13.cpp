@@ -11,10 +11,10 @@ int main() {
     for (int i = 0; i < n; ++i) {
         std::cin >> a[i];
         if (positions.count(a[i]) == 0) {
-            positions[a[i]] = { i, i }; // первое вхождение
+            positions[a[i]] = { i, i }; // РїРµСЂРІРѕРµ РІС…РѕР¶РґРµРЅРёРµ
         }
         else {
-            positions[a[i]].second = i; // обновляем последнее вхождение
+            positions[a[i]].second = i; // РѕР±РЅРѕРІР»СЏРµРј РїРѕСЃР»РµРґРЅРµРµ РІС…РѕР¶РґРµРЅРёРµ
         }
     }
     int max_distance = -1;

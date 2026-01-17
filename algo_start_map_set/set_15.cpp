@@ -19,7 +19,7 @@ int main() {
         int x;
         std::cin >> x;
         if (!oleg.count(x)) {
-            san.insert(x); // магнитик не разбился
+            san.insert(x); // РјР°РіРЅРёС‚РёРє РЅРµ СЂР°Р·Р±РёР»СЃСЏ
         }
     }
     for (int x : san) {

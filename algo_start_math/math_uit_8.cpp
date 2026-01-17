@@ -21,8 +21,8 @@ int main() {
             std::cin >> b;
             sum += b;
         }
-        int k = static_cast<int>(sum % n); // итоговый левый сдвиг
-        answers.push_back(a[k]); // верхняя карта после m перемешиваний
+        int k = static_cast<int>(sum % n); // РёС‚РѕРіРѕРІС‹Р№ Р»РµРІС‹Р№ СЃРґРІРёРі
+        answers.push_back(a[k]); // РІРµСЂС…РЅСЏСЏ РєР°СЂС‚Р° РїРѕСЃР»Рµ m РїРµСЂРµРјРµС€РёРІР°РЅРёР№
     }
     for (int ans : answers) {
         std::cout << ans << '\n';

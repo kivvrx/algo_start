@@ -14,8 +14,8 @@ int main() {
         if (x >= 0) nneg.push_back(x);
         else neg.push_back(x);
     }
-    std::sort(nneg.begin(), nneg.end()); // неубывание
-    std::sort(neg.begin(), neg.end(), std::greater<int>()); // невозрастание
+    std::sort(nneg.begin(), nneg.end()); // РЅРµСѓР±С‹РІР°РЅРёРµ
+    std::sort(neg.begin(), neg.end(), std::greater<int>()); // РЅРµРІРѕР·СЂР°СЃС‚Р°РЅРёРµ
     for (int x : nneg) std::cout << x << " ";
     for (int x : neg) std::cout << x << " ";
     std::cout << "\n";

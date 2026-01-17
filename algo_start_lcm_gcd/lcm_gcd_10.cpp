@@ -8,7 +8,7 @@ int main() {
         std::cout << "NO\n";
         return 0;
     }
-    long long sum = 1; // 1 âñåãäà äåëèòåëü
+    long long sum = 1; // 1 Ğ²ÑĞµĞ³Ğ´Ğ° Ğ´ĞµĞ»Ğ¸Ñ‚ĞµĞ»ÑŒ
     for (long long i = 2; i * i <= n; i++) {
         if (n % i == 0) {
             sum += i;

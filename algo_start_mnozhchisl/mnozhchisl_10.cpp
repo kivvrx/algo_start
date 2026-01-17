@@ -17,7 +17,7 @@ int main() {
         }
     }
     if (n > 1) factors.push_back(n);
-    // сумма произведений
+    // СЃСѓРјРјР° РїСЂРѕРёР·РІРµРґРµРЅРёР№
     long long sum = 0;
     for (size_t i = 0; i < factors.size(); ++i) {
         for (size_t j = i + 1; j < factors.size(); ++j) {

@@ -17,7 +17,7 @@ int main() {
 
     int best_start = 0, best_len = 1;
     int cur_start = 0, cur_len = 1;
-    int dir = 0; // 0 = неизвестно, 1 = возрастание, -1 = убывание
+    int dir = 0; // 0 = РЅРµРёР·РІРµСЃС‚РЅРѕ, 1 = РІРѕР·СЂР°СЃС‚Р°РЅРёРµ, -1 = СѓР±С‹РІР°РЅРёРµ
 
     for (int i = 1; i < n; i++) {
         if (a[i] > a[i - 1]) {
@@ -51,7 +51,7 @@ int main() {
             }
         }
         else {
-            // равные элементы сброс
+            // СЂР°РІРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ СЃР±СЂРѕСЃ
             if (cur_len > best_len) {
                 best_len = cur_len;
                 best_start = cur_start;
